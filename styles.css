@@ -5,6 +5,7 @@ body {
     justify-content: center;
     height: 100vh;
     align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,233,55,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 #piano {
@@ -72,3 +73,4 @@ body {
 .black-key:nth-child(10) {
     left: 865px;
 }
+
