@@ -5,6 +5,6 @@ function playSound() {
 }
 
 pianoKeys.forEach((pianoKey, i) => {
-    const newUrl = "24-piano-keys/key02.mp3"
-    pianoKey.addEventListener('click', playSound)
+    const newUrl = '24-piano-keys/key' + number + '.mp3'
+    pianoKey.addEventListener('click', playSound(newUrl))
 })
