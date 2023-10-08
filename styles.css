@@ -36,9 +36,9 @@ body {
     width: 68px;
     height: 280px;
     border-radius: 0 0 5px 5px;
-    border: solid #000 1.5px;
+    border: solid #515151 1.5px;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #FCFCFF, #F8F8FF, #F4F4FB, #EFEFF6, #EBEBF2, #E6E6ED);
+    background: linear-gradient(90deg, #FCFCFF, #F8F8FF, #F4F4FB, #EFEFF6, #d8d8df, #d5d5dc);
 }
 .black-key {
     width: 38px;
