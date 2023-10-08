@@ -3,7 +3,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     align-items: center;
     background-color: #000;
 }
@@ -96,7 +96,19 @@ body {
     height: 80%;
     width: 40%;
     margin-right: 70%;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
+    box-shadow: 0px 0px 50px orange;
+}
+.planet-1 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(160deg, #81BCBD, #4D9EB5, #55546E, #BFD18F, #EBDC98);
+    height: 40%;
+    width: 20%;
+    margin-left: 50%;
+    margin-top: 60%;
+    box-shadow: 0px 0px 50px lightskyblue;
 }
 .star-1 {
     display: flex;
