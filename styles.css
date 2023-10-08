@@ -207,7 +207,7 @@ body {
     width: 0.6%;
     margin-bottom: 25%;
     margin-right: 10%;
-    animation: glow 0.75s linear alternate infinite;
+    animation: glow 0.65s linear alternate infinite;
 }
 .star-8 {
     display: flex;
@@ -240,7 +240,7 @@ body {
     width: 0.3%;
     margin-top: 40%;
     margin-right: 90%;
-    animation: glow 0.75s linear alternate infinite;
+    animation: glow 1s linear alternate infinite;
 }
 
 
