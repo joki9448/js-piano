@@ -17,7 +17,7 @@ body {
     border-radius: 10px;
     bottom: 100px;
     margin-bottom: 7%;
-    z-index: 0;
+    z-index: 1;
     box-shadow: 0px 0px 10px #fff;
 }
 
@@ -80,3 +80,19 @@ body {
     left: 865px;
 }
 
+/* STARS */
+@keyframes glow {
+    0% {box-shadow: 0px 0px 11px 2px white;}
+    25% {box-shadow: 0px 0px 13px 2.5pxwhite;}
+    50% {box-shadow: 0px 0px 15px 3px white;}
+    75% {box-shadow: 0px 0px 17px 4px white;}
+    100% {box-shadow: 0px 0px 19px 5px white;}
+}
+.star-1 {
+    border-radius: 100%;
+    background-color: #fff;
+    height: 2%;
+    width: 1%;
+    margin-bottom: 25%;
+    margin-left: 80%;
+}
