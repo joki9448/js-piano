@@ -106,8 +106,8 @@ body {
     background: linear-gradient(300deg, #595956, #7c7c78, #8f8e89, #D0D0CA, #E0E0D5, #F0EFE2);
     height: 30%;
     width: 15%;
-    margin-left: 40%;
-    margin-bottom: 30%;
+    margin-left: 50%;
+    margin-bottom: 20%;
     box-shadow: 0px 0px 50px silver;
 }
 .planet-1 {
@@ -120,6 +120,17 @@ body {
     margin-left: 75%;
     margin-top: 60%;
     box-shadow: 0px 0px 50px lightskyblue;
+}
+.planet-2 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(45deg, #99857A, #C67B5C, #E27B58, #FF9D6F, #663926, #8E6A5A);
+    height: 50%;
+    width: 25%;
+    margin-right: 80%;
+    margin-top: 75%;
+    box-shadow: 0px 0px 50px #AA4A44;
 }
 .star-1 {
     display: flex;
@@ -143,16 +154,8 @@ body {
     margin-right: 80%;
     animation: glow 0.5s linear alternate infinite;
 }
-.star-3 {
-    display: flex;
-    position: absolute;
-    border-radius: 100%;
-    background-color: #fff;
-    height: 2%;
-    width: 1%;
-    animation: glow 0.5s linear alternate infinite;
-    margin-left: 45%;
-    margin-top: 70%;
+.star-4 {
+
 }
 
 
