@@ -83,16 +83,53 @@ body {
 /* STARS */
 @keyframes glow {
     0% {box-shadow: 0px 0px 11px 2px white;}
-    25% {box-shadow: 0px 0px 13px 2.5pxwhite;}
+    25% {box-shadow: 0px 0px 13px 2.5px white;}
     50% {box-shadow: 0px 0px 15px 3px white;}
     75% {box-shadow: 0px 0px 17px 4px white;}
     100% {box-shadow: 0px 0px 19px 5px white;}
 }
+.sun {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #A83B19, #D35A1E, #F27929, #F2982C, #FADD43);
+    height: 80%;
+    width: 40%;
+    margin-right: 70%;
+    margin-bottom: 50%;
+}
 .star-1 {
+    display: flex;
+    position: absolute;
     border-radius: 100%;
     background-color: #fff;
     height: 2%;
     width: 1%;
     margin-bottom: 25%;
     margin-left: 80%;
+    animation: glow 1s linear alternate infinite;
 }
+.star-2 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 3%;
+    width: 1.5%;
+    margin-top: 25%;
+    margin-right: 80%;
+    animation: glow 0.5s linear alternate infinite;
+}
+.star-3 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 6%;
+    width: 3%;
+    animation: glow 0.5s linear alternate infinite;
+    margin-left: 60%;
+    margin-bottom: 50%;
+}
+
+
