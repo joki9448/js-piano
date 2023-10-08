@@ -9,10 +9,15 @@ body {
 }
 
 #piano {
+    display: flex;
+    position: absolute;
     height: 290px;
-    padding: 90px 30px 0 30px;
-    background-color: #4AE937;
+    padding: 30px 30px 10px 30px;
+    background: linear-gradient(180deg, #C19A6C, #B37A5F, #A45A51);
     border-radius: 10px;
+    bottom: 100px;
+    margin-bottom: 8%;
+    z-index: 0;
 }
 
 .keys {
@@ -30,10 +35,10 @@ body {
 .white-key {
     width: 68px;
     height: 280px;
-    background-color: #fff;
     border-radius: 0 0 5px 5px;
     border: solid #000 2px;
     box-sizing: border-box;
+    background: linear-gradient(90deg, #FCFCFF, #F8F8FF, #F4F4FB, #EFEFF6, #EBEBF2, #E6E6ED);
 }
 .black-key {
     width: 38px;
