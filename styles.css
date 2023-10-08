@@ -154,9 +154,71 @@ body {
     margin-right: 80%;
     animation: glow 0.5s linear alternate infinite;
 }
-.star-4 {
-
+.star-3 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 1%;
+    width: 0.5%;
+    margin-top: 60%;
+    margin-left: 10%;
+    animation: glow 0.35s linear alternate infinite;
 }
-
+.star-4 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 0.5%;
+    width: 0.25%;
+    margin-top: 55%;
+    margin-right: 40%;
+    animation: glow 1.25s linear alternate infinite;
+}
+.star-5 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 0.8%;
+    width: 0.4%;
+    margin-top: 50%;
+    margin-left: 30%;
+    animation: glow 0.8s linear alternate infinite;
+}
+.star-6 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 1.5%;
+    width: 0.75%;
+    margin-top: 70%;
+    margin-right: 20%;
+    animation: glow 0.5s linear alternate infinite;
+}
+.star-7 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 1.2%;
+    width: 0.6%;
+    margin-bottom: 25%;
+    margin-right: 10%;
+    animation: glow 0.75s linear alternate infinite;
+}
+.star-8 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 1.6%;
+    width: 0.8%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    animation: glow 0.75s linear alternate infinite;
+}
 
 
