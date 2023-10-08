@@ -220,5 +220,27 @@ body {
     margin-left: 15%;
     animation: glow 0.75s linear alternate infinite;
 }
+.star-9 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 3%;
+    width: 1.5%;
+    margin-bottom: 20%;
+    margin-left: 95%;
+    animation: glow 0.6s linear alternate infinite;
+}
+.star-10 {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 0.6%;
+    width: 0.3%;
+    margin-top: 40%;
+    margin-right: 90%;
+    animation: glow 0.75s linear alternate infinite;
+}
 
 
